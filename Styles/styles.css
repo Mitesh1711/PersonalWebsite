@@ -1,5 +1,28 @@
-.img {
-  height : 300 px;
-  width : 300px;
+/* Global styles */
+.content-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+body {
+  margin: 0;
+}
+
+
+/* Header and Footer */
+header, footer {
+  display: block;
+  background-color: lightblue;
+  padding: 10px 10px;
+}
+img {
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
+}
+/* Main and other styles*/
+.edu, .work, .app, .projects, .skills {
+  background-color: floralwhite;
+  display: block;
+  padding: 10px 10px;
+  margin: 0;
 }
